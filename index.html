@@ -11,43 +11,98 @@
 
 <body>
 
+<!-- NAVBAR -->
 <header>
-    <h1>Bandaru Prasad</h1>
-    <h2>B.Tech CSE Student | Aspiring Software Developer</h2>
+    <div class="logo">My Portfolio</div>
 
     <nav>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
         <a href="#projects">Projects</a>
-        <a href="#achievements">Achievements</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
 
-<section id="about">
-    <h2>About Me</h2>
+<!-- HOME -->
+<section id="home" class="home">
+    <div class="home-content">
+        <p class="small-title">WELCOME TO MY PORTFOLIO</p>
 
-    <p>
-        B.Tech CSE student passionate about software development,
-        technology and innovation. I enjoy building useful applications
-        and learning new technologies. I am currently exploring
-        AI and Machine Learning.
-    </p>
+        <h1>Hi, I'm <span>Bandaru Prasad</span></h1>
+
+        <h2>B.Tech CSE Student | Aspiring Software Developer</h2>
+
+        <p>
+            Passionate about technology, software development and
+            building useful real-world applications.
+        </p>
+
+        <a href="#projects" class="btn">Explore My Work</a>
+    </div>
 </section>
 
 
-<section id="education">
-    <h2>Education</h2>
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
 
-    <div class="project">
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                I am a B.Tech Computer Science Engineering student
+                passionate about software development and technology.
+                I enjoy learning new technologies and building practical
+                applications.
+            </p>
+
+            <p>
+                I am currently exploring AI and Machine Learning while
+                improving my programming and problem-solving skills.
+            </p>
+
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+
+        <div class="photo">
+            <img src="profile.jpg" alt="Bandaru Prasad">
+        </div>
+    </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">Java</div>
+        <div class="skill-card">C</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Android</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">HTML & CSS</div>
+        <div class="skill-card">Git</div>
+        <div class="skill-card">AI & ML</div>
+
+    </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
         <h3>B.Tech – Computer Science Engineering</h3>
         <p>Lovely Professional University</p>
         <p>2025 – Present | 2nd Year</p>
     </div>
 
-    <div class="project">
+    <div class="card">
         <h3>Intermediate</h3>
         <p>Sri Viswa IIT & Medical Academy</p>
         <p>2023 – 2025 | 96.9%</p>
@@ -55,88 +110,103 @@
 </section>
 
 
-<section id="skills">
-    <h2>Skills</h2>
+<!-- CERTIFICATES -->
+<section id="certificates">
+    <h2 class="section-title">Certificates</h2>
 
-    <div class="skills">
-        <span>Java</span>
-        <span>C</span>
-        <span>Python</span>
-        <span>Android</span>
-        <span>SQL</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Git</span>
-        <span>AI & ML</span>
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+            <h3>Certificate</h3>
+            <p>Add your certificate details here.</p>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Certificate</h3>
+            <p>Add your certificate details here.</p>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Certificate</h3>
+            <p>Add your certificate details here.</p>
+        </div>
+
     </div>
 </section>
 
 
+<!-- PROJECTS -->
 <section id="projects">
-    <h2>Projects</h2>
+    <h2 class="section-title">My Projects</h2>
 
-    <div class="project">
-        <h3>P Call – Android App</h3>
-        <p>Auto-reply for missed calls using Android and Java.</p>
-    </div>
+    <div class="project-grid">
 
-    <div class="project">
-        <h3>Battery Level Alarm</h3>
-        <p>Alerts users at selected battery levels while charging.</p>
-    </div>
+        <div class="project-card">
+            <h3>P Call</h3>
+            <p>
+                Android application for automatically responding
+                to missed calls.
+            </p>
+        </div>
 
-    <div class="project">
-        <h3>Voice Assistant – Ongoing</h3>
-        <p>
-            Currently developing a voice-based assistant
-            with commands and task automation.
-        </p>
+        <div class="project-card">
+            <h3>Battery Level Alarm</h3>
+            <p>
+                Application that alerts users at selected battery
+                levels while charging.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Voice Assistant</h3>
+            <p>
+                Ongoing project focused on voice commands and
+                task automation.
+            </p>
+        </div>
+
     </div>
 </section>
 
 
+<!-- ACHIEVEMENTS -->
 <section id="achievements">
-    <h2>Achievements</h2>
+    <h2 class="section-title">Achievements</h2>
 
-    <ul>
-        <li>Scored 96.9% in Intermediate</li>
-        <li>Developed P Call Android application</li>
-        <li>Currently learning AI and Machine Learning</li>
-    </ul>
+    <div class="card">
+        <ul>
+            <li>Scored 96.9% in Intermediate</li>
+            <li>Developed P Call Android application</li>
+            <li>Currently learning AI & Machine Learning</li>
+        </ul>
+    </div>
 </section>
 
 
-<section>
-    <h2>Career Goal</h2>
-
-    <p>
-        To become a skilled software developer, build useful
-        technology solutions and grow in the software industry.
-    </p>
-</section>
-
-
+<!-- CONTACT -->
 <section id="contact">
-    <h2>Contact</h2>
+    <h2 class="section-title">Contact Me</h2>
 
-    <p>Email: bandaruprasad816@gmail.com</p>
+    <div class="contact-box">
 
-    <a class="btn"
-       href="https://github.com/bandaruprasad816-byte"
-       target="_blank">
-       GitHub
-    </a>
+        <p>📧 bandaruprasad816@gmail.com</p>
 
-    <a class="btn"
-       href="https://linkedin.com/in/bandaru-prasad-689620373"
-       target="_blank">
-       LinkedIn
-    </a>
+        <a href="https://github.com/bandaruprasad816-byte"
+           target="_blank" class="btn">
+            GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/bandaru-prasad-689620373"
+           target="_blank" class="btn">
+            LinkedIn
+        </a>
+
+    </div>
 </section>
 
 
 <footer>
-    <p>© 2026 Bandaru Prasad | Portfolio</p>
+    <p>© 2026 Bandaru Prasad | Personal Portfolio</p>
 </footer>
 
 </body>
