@@ -591,3 +591,76 @@ footer {
         height: 190px;
     }
 }
+
+
+
+/* ================================
+   LARGER TEXT
+================================ */
+
+body {
+    font-size: 17px;
+}
+
+nav a {
+    font-size: 16px;
+}
+
+.home h1 {
+    font-size: 58px;
+}
+
+.home h2 {
+    font-size: 24px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+.skill-heading {
+    color: #00e5ff;
+    font-size: 23px;
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.skill-card {
+    font-size: 18px;
+}
+
+.card h3,
+.project-card h3,
+.certificate-card h3 {
+    font-size: 21px;
+}
+
+.card p,
+.project-card p,
+.certificate-card p {
+    font-size: 17px;
+}
+
+.certificate-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+#achievements li {
+    font-size: 18px;
+}
+
+.contact-box p {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 15px;
+}
