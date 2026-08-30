@@ -664,3 +664,68 @@ nav a {
 footer p {
     font-size: 15px;
 }
+
+
+
+/* CONTACT FORM */
+
+.contact-box {
+    max-width: 650px;
+    margin: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #555;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00e5ff;
+    margin-top: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    background: #080808;
+    color: white;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00e5ff;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form .btn {
+    background: transparent;
+    cursor: pointer;
+    font-size: 17px;
+    align-self: flex-start;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.social-links .btn {
+    margin-top: 0;
+}
